@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumEdge Systems - Advanced Computational Intelligence</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        * {
+            font-family: 'Epilogue', sans-serif;
+        }
+        
+        .neo-brutal-card {
+            border: 3px solid #00D9FF;
+            box-shadow: 8px 8px 0px #00D9FF;
+        }
+        
+        .neo-brutal-button {
+            border: 3px solid #00D9FF;
+            box-shadow: 6px 6px 0px #00D9FF;
+            transition: all 0.2s ease;
+        }
+        
+        .neo-brutal-button:hover {
+            transform: translate(3px, 3px);
+            box-shadow: 3px 3px 0px #00D9FF;
+        }
+        
+        .accent-color {
+            color: #00D9FF;
+        }
+        
+        .accent-bg {
+            background-color: #00D9FF;
+        }
+        
+        .accent-border {
+            border-color: #00D9FF;
+        }
+        
+        .glow-effect {
+            box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #00D9FF, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-gray-900 z-50 border-b-3 border-cyan-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold accent-color">QuantumEdge</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-cyan-400 transition-colors font-medium">Home</a>
+                        <a href="#product" class="hover:text-cyan-400 transition-colors font-medium">Product</a>
+                        <a href="#pricing" class="hover:text-cyan-400 transition-colors font-medium">Pricing</a>
+                        <a href="#contact" class="hover:text-cyan-400 transition-colors font-medium">Contact</a>
+                        <a href="#faq" class="hover:text-cyan-400 transition-colors font-medium">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-16 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="mb-12">
+                <h1 class="text-6xl md:text-8xl font-black mb-6 gradient-text leading-tight">
+                    QUANTUM-ENHANCED<br>INTELLIGENCE
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto font-light">
+                    Revolutionizing enterprise optimization through quantum-classical hybrid algorithms, 
+                    delivering exponential computational advantages for complex multi-dimensional problem spaces.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+                <button class="neo-brutal-button bg-cyan-400 text-gray-900 px-8 py-4 font-bold text-lg uppercase tracking-wide">
+                    Deploy Intelligence
+                </button>
+                <button class="neo-brutal-button bg-transparent text-cyan-400 px-8 py-4 font-bold text-lg uppercase tracking-wide">
+                    Technical Documentation
+                </button>
+            </div>
+            
+            <div class="mt-16 neo-brutal-card bg-gray-800 p-8 max-w-4xl mx-auto glow-effect">
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="text-4xl font-black accent-color">10^15</div>
+                        <div class="text-gray-400 font-medium">Operations/Second</div>
+                    </div>
+                    <div>
+                        <div class="text-4xl font-black accent-color">99.97%</div>
+                        <div class="text-gray-400 font-medium">Optimization Accuracy</div>
+                    </div>
+                    <div>
+                        <div class="text-4xl font-black accent-color">45ms</div>
+                        <div class="text-gray-400 font-medium">Latency Threshold</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="py-20 px-4 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-black mb-6 accent-color uppercase tracking-tight">
+                    Computational Superiority
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Our quantum-enhanced processing architecture leverages variational quantum eigensolvers 
+                    and topological quantum error correction to solve NP-hard optimization problems at scale.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <div class="text-cyan-400 text-4xl mb-4">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Quantum Circuit Optimization</h3>
+                    <p class="text-gray-300 mb-6">
+                        Advanced quantum gate synthesis with automated circuit depth reduction, 
+                        achieving 94% fewer quantum operations through our proprietary compilation framework.
+                    </p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li>• Variational Quantum Eigensolver (VQE)</li>
+                        <li>• Quantum Approximate Optimization (QAOA)</li>
+                        <li>• Adiabatic Quantum Computing</li>
+                    </ul>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <div class="text-cyan-400 text-4xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Neural Architecture Search</h3>
+                    <p class="text-gray-300 mb-6">
+                        Automated neural network topology optimization using evolutionary algorithms 
+                        combined with reinforcement learning for architecture discovery.
+                    </p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li>• Differentiable Architecture Search</li>
+                        <li>• Progressive Neural Architecture</li>
+                        <li>• Meta-Learning Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <div class="text-cyan-400 text-4xl mb-4">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Distributed Tensor Processing</h3>
+                    <p class="text-gray-300 mb-6">
+                        Massively parallel tensor computation across heterogeneous quantum-classical 
+                        hybrid systems with automatic workload distribution and fault tolerance.
+                    </p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li>• Tensor Network Decomposition</li>
+                        <li>• Quantum Tensor Networks</li>
+                        <li>• Distributed Graph Computation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-black mb-6 accent-color uppercase tracking-tight">
+                    Subscription Architecture
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Scalable computational resources with enterprise-grade security, 
+                    real-time monitoring, and quantum advantage verification protocols.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="neo-brutal-card bg-gray-800 p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">Research Tier</h3>
+                    <div class="text-5xl font-black accent-color mb-6">$2,500<span class="text-lg text-gray-400">/mo</span></div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>1M Quantum Operations</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Classical Preprocessing</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>API Access & SDK</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Community Support</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Performance Analytics</li>
+                    </ul>
+                    <button class="neo-brutal-button bg-transparent text-cyan-400 w-full py-3 font-bold uppercase tracking-wide">
+                        Initialize
+                    </button>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-800 p-8 text-center glow-effect">
+                    <div class="bg-cyan-400 text-gray-900 px-4 py-2 text-sm font-bold uppercase tracking-wide mb-4">
+                        Enterprise Standard
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Production Tier</h3>
+                    <div class="text-5xl font-black accent-color mb-6">$15,000<span class="text-lg text-gray-400">/mo</span></div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>50M Quantum Operations</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Hybrid Processing Pipeline</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Priority Quantum Resources</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>24/7 Technical Support</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Custom Integration</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>SLA Guarantees</li>
+                    </ul>
+                    <button class="neo-brutal-button accent-bg text-gray-900 w-full py-3 font-bold uppercase tracking-wide">
+                        Deploy
+                    </button>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-800 p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">Hyperscale Tier</h3>
+                    <div class="text-5xl font-black accent-color mb-6">Custom</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Unlimited Operations</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Dedicated Quantum Cores</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>White-label Solutions</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Research Collaboration</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Custom Hardware Access</li>
+                        <li class="flex items-center"><i class="fas fa-check accent-color mr-3"></i>Dedicated Support Team</li>
+                    </ul>
+                    <button class="neo-brutal-button bg-transparent text-cyan-400 w-full py-3 font-bold uppercase tracking-wide">
+                        Configure
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-black mb-6 accent-color uppercase tracking-tight">
+                    Establish Connection
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Ready to revolutionize your computational infrastructure? 
+                    Our quantum systems engineers are standing by to architect your solution.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <h3 class="text-2xl font-bold mb-6">Technical Consultation</h3>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2 accent-color uppercase tracking-wide">
+                                Organization Identifier
+                            </label>
+                            <input type="text" class="w-full p-4 bg-gray-700 border-3 border-cyan-400 text-white font-medium focus:outline-none focus:border-cyan-300">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2 accent-color uppercase tracking-wide">
+                                Principal Investigator
+                            </label>
+                            <input type="text" class="w-full p-4 bg-gray-700 border-3 border-cyan-400 text-white font-medium focus:outline-none focus:border-cyan-300">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2 accent-color uppercase tracking-wide">
+                                Secure Communication Channel
+                            </label>
+                            <input type="email" class="w-full p-4 bg-gray-700 border-3 border-cyan-400 text-white font-medium focus:outline-none focus:border-cyan-300">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2 accent-color uppercase tracking-wide">
+                                Computational Requirements
+                            </label>
+                            <textarea rows="4" class="w-full p-4 bg-gray-700 border-3 border-cyan-400 text-white font-medium focus:outline-none focus:border-cyan-300"></textarea>
+                        </div>
+                        <button type="submit" class="neo-brutal-button accent-bg text-gray-900 w-full py-4 font-bold uppercase tracking-wide">
+                            Initiate Protocol
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="space-y-8">
+                    <div class="neo-brutal-card bg-gray-900 p-8">
+                        <h3 class="text-2xl font-bold mb-6">Global Operations Centers</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-bold accent-color">Quantum Research Facility</h4>
+                                <p class="text-gray-300">MIT Technology Square<br>Cambridge, MA 02139</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold accent-color">European Quantum Hub</h4>
+                                <p class="text-gray-300">CERN Innovation Centre<br>Geneva, Switzerland</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold accent-color">Asia-Pacific Division</h4>
+                                <p class="text-gray-300">Quantum Innovation District<br>Singapore 138623</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="neo-brutal-card bg-gray-900 p-8">
+                        <h3 class="text-2xl font-bold mb-6">Direct Access Channels</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i class="fas fa-envelope text-cyan-400 mr-4 text-xl"></i>
+                                <span>research@quantumedge.systems</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-phone text-cyan-400 mr-4 text-xl"></i>
+                                <span>+1 (617) 555-QBIT</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-shield-alt text-cyan-400 mr-4 text-xl"></i>
+                                <span>Encrypted Communications Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="neo-brutal-card bg-gray-800 p-12 glow-effect">
+                <h2 class="text-4xl font-black mb-6 accent-color uppercase tracking-tight">
+                    Quantum Intelligence Brief
+                </h2>
+                <p class="text-xl text-gray-300 mb-8">
+                    Subscribe to receive cutting-edge research updates, algorithm breakthroughs, 
+                    and exclusive access to our quantum computational advances.
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
+                    <input type="email" placeholder="Enter secure communication address" 
+                           class="flex-1 p-4 bg-gray-700 border-3 border-cyan-400 text-white font-medium focus:outline-none focus:border-cyan-300">
+                    <button class="neo-brutal-button accent-bg text-gray-900 px-8 py-4 font-bold uppercase tracking-wide">
+                        Subscribe
+                    </button>
+                </div>
+                <p class="text-sm text-gray-400 mt-4">
+                    End-to-end encrypted. Quantum-secured transmission protocols.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-4 bg-gray-800">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-black mb-6 accent-color uppercase tracking-tight">
+                    Technical Documentation
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Comprehensive answers to advanced implementation and optimization queries.
+                </p>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <button class="flex justify-between items-center w-full text-left" onclick="toggleFaq(0)">
+                        <h3 class="text-xl font-bold">What quantum advantage verification protocols do you implement?</h3>
+                        <i class="fas fa-chevron-down accent-color transform transition-transform" id="icon-0"></i>
+                    </button>
+                    <div class="mt-6 text-gray-300 hidden" id="answer-0">
+                        <p>Our verification framework employs quantum process tomography combined with randomized benchmarking protocols. We implement cross-entropy benchmarking against classical baselines, ensuring measurable quantum supremacy through Bell state fidelity measurements and entanglement entropy calculations exceeding classical simulation capabilities.</p>
+                    </div>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <button class="flex justify-between items-center w-full text-left" onclick="toggleFaq(1)">
+                        <h3 class="text-xl font-bold">How does your error correction methodology scale with qubit count?</h3>
+                        <i class="fas fa-chevron-down accent-color transform transition-transform" id="icon-1"></i>
+                    </button>
+                    <div class="mt-6 text-gray-300 hidden" id="answer-1">
+                        <p>We utilize surface code topology with automated syndrome extraction, maintaining logical error rates below 10^-15 through real-time adaptive threshold adjustment. Our proprietary decoder algorithms achieve O(log n) scaling complexity while preserving quantum coherence through dynamical decoupling sequences synchronized with gate operations.</p>
+                    </div>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <button class="flex justify-between items-center w-full text-left" onclick="toggleFaq(2)">
+                        <h3 class="text-xl font-bold">What classical-quantum hybrid optimization strategies are supported?</h3>
+                        <i class="fas fa-chevron-down accent-color transform transition-transform" id="icon-2"></i>
+                    </button>
+                    <div class="mt-6 text-gray-300 hidden" id="answer-2">
+                        <p>Our platform supports variational quantum eigensolvers (VQE), quantum approximate optimization algorithms (QAOA), and quantum machine learning kernels. Classical preprocessing includes tensor network pre-conditioning, graph partitioning optimization, and adaptive parameter initialization using Bayesian optimization for variational parameter landscapes.</p>
+                    </div>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <button class="flex justify-between items-center w-full text-left" onclick="toggleFaq(3)">
+                        <h3 class="text-xl font-bold">How do you ensure quantum circuit compilation optimization?</h3>
+                        <i class="fas fa-chevron-down accent-color transform transition-transform" id="icon-3"></i>
+                    </button>
+                    <div class="mt-6 text-gray-300 hidden" id="answer-3">
+                        <p>Our compiler stack implements graph-theoretic gate synthesis with automated topology mapping for arbitrary connectivity constraints. We employ simulated annealing for gate scheduling optimization, achieving 94% reduction in circuit depth through commutation analysis and algebraic gate fusion protocols.</p>
+                    </div>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <button class="flex justify-between items-center w-full text-left" onclick="toggleFaq(4)">
+                        <h3 class="text-xl font-bold">What enterprise security protocols are implemented for quantum computations?</h3>
+                        <i class="fas fa-chevron-down accent-color transform transition-transform" id="icon-4"></i>
+                    </button>
+                    <div class="mt-6 text-gray-300 hidden" id="answer-4">
+                        <p>All quantum computations utilize quantum key distribution (QKD) protocols with BB84 implementation for secure classical-quantum communication channels. We implement homomorphic encryption for classical preprocessing stages and maintain zero-knowledge proof systems for computation verification without exposing proprietary algorithms or datasets.</p>
+                    </div>
+                </div>
+                
+                <div class="neo-brutal-card bg-gray-900 p-8">
+                    <button class="flex justify-between items-center w-full text-left" onclick="toggleFaq(5)">
+                        <h3 class="text-xl font-bold">What are the latency characteristics of your quantum processing pipeline?</h3>
+                        <i class="fas fa-chevron-down accent-color transform transition-transform" id="icon-5"></i>
+                    </button>
+                    <div class="mt-6 text-gray-300 hidden" id="answer-5">
+                        <p>Our processing architecture achieves sub-45ms total latency including classical preprocessing, quantum circuit execution, and postprocessing. Quantum gate execution operates at nanosecond timescales with coherence times exceeding 100ms through advanced environmental isolation and active feedback stabilization systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 border-t-3 border-cyan-400">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold accent-color mb-4">QuantumEdge</h3>
+                    <p class="text-gray-400">
+                        Advancing computational frontiers through quantum-enhanced intelligence systems.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Research Areas</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Quantum Algorithms</li>
+                        <li>Error Correction</li>
+                        <li>Hybrid Computing</li>
+                        <li>Optimization Theory</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Technical Documentation</li>
+                        <li>API Reference</li>
+                        <li>Research Publications</li>
+                        <li>System Status</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-cyan-400 hover:text-cyan-300 text-xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-cyan-400 hover:text-cyan-300 text-xl">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="text-cyan-400 hover:text-cyan-300 text-xl">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 QuantumEdge Systems. Quantum computational intelligence protocols.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(index) {
+            const answer = document.getElementById(`answer-${index}`);
+            const icon = document.getElementById(`icon-${index}`);
+            
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                answer.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
